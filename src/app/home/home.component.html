@@ -1,0 +1,38 @@
+<!--
+<a class="btn btn-primary" routerLink="/login">login</a>
+-->
+<h2 class="d-flex justify-content-center text-danger">World Clock</h2>
+<div class="container" id="timer">
+<form class="form-inline">
+    <div class="form-group mb-2">
+        Set United State Time
+    </div>
+
+    <div class="form-group mx-sm-3 mb-2">
+      <input type="text" class="form-control" name="us" placeholder="HH:MM:SS">
+    </div>
+
+    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+  </form>
+
+  <br>
+  <br>
+
+  <div>
+   <h2><p> United State ::  {{time | date:'hh:mm:ss a':'-4:30':'en-US'}} </p></h2>
+    </div>
+
+    <div>
+        <h4>London  :: {{ time | date: 'hh:mm:ss a':'+0:30':'en-GB'}}</h4>
+        </div>
+  <div> 
+        <h4>India :: {{ time | date: 'hh:mm:ss a' }}</h4>
+ </div>
+   
+
+    
+
+   
+
+
+

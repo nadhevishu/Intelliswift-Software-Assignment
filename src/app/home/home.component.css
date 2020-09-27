@@ -1,0 +1,15 @@
+#timer{
+    margin-top: 50px;
+    max-width: 700px;
+    height: 450px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #mobileTimer{
+      margin-top: 30px;
+      max-width: 500px;
+      height: 300px;
+    }
+  }
